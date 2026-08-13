@@ -2,9 +2,22 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+    // <>
+    //   <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    // </>
+
+
     <>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <h2 className="text-2xl font-bold underline">Hello world!</h2>
+      <h3 className="text-xl font-bold underline">Hello world!</h3>
+      <h4 className="text-lg font-bold underline">Hello world!</h4>
+      <h5 className="text-base font-bold underline">Hello world!</h5>
+      <h6 className="text-sm font-bold underline">Hello world!</h6>
     </>
+
+
+
     // <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
     //   <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
     //     <Image
